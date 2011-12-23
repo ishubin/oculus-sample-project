@@ -39,7 +39,7 @@
           </archive>
           <finalName>oculus-sample-project</finalName>
           <descriptorRefs>
-            <descriptorRef>all-dep</descriptorRef>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
           </descriptorRefs>
         </configuration>
       </plugin>
