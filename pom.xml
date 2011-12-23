@@ -37,9 +37,9 @@
               <mainClass>nl.marktplaats.jmetercharts.JmeterChart</mainClass>
             </manifest>
           </archive>
-          <finalName>jmeterchart-executable</finalName>
+          <finalName>oculus-sample-project</finalName>
           <descriptorRefs>
-            <descriptorRef>jar-with-dependencies</descriptorRef>
+            <descriptorRef>all-dep</descriptorRef>
           </descriptorRefs>
         </configuration>
       </plugin>
