@@ -1,3 +1,4 @@
+package net.mindengine.oculus.test.sample;
 import net.mindengine.oculus.experior.annotations.Action;
 import net.mindengine.oculus.experior.annotations.Test;
 
