@@ -25,7 +25,7 @@ public class TestWith3Actions {
     public void afterTest() throws IOException {
         buffer.append("[afterTest]");
         
-        File file = new File("../../../../../data/logs/"+getClass().getName()+".log");
+        File file = new File("../../../../data/logs/"+getClass().getName()+".log");
         file.createNewFile();
         FileUtils.writeStringToFile(file, buffer.toString());
     }
