@@ -29,7 +29,7 @@ public class CreateUserInDatabase extends OculusTest {
     protected String password;
     
     
-    @Action
+    @Action(silent=true)
     public void createUserInDb() {
         userId = generateUniqueId();
         email = prefix + Long.toString(userId) + "@mymail";

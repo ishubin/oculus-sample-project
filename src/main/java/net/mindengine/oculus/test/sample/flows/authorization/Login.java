@@ -20,7 +20,7 @@ public class Login extends OculusTest {
     @InputParameter(defaultValue="")
     protected String password;
     
-    @Action
+    @Action(silent=true)
     public void login() {
         report.info("Click " + bold("Login") + " page").icon(UI_CLICK);
         report.info("Type " + string(email) + " in " + bold("email") + " text-field").icon(ReportIcon.UI_TYPE);

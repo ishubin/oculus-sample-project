@@ -30,7 +30,7 @@ public class PlaceArticle extends OculusTest {
     @OutputParameter
     public Long articleId;
 
-    @Action
+    @Action(silent=true)
     public void placeArticle() {
         report.info("Click " + bold("Place article") + " link").icon(UI_CLICK);
         report.info("Select " + string(section) + " section").icon(UI);
