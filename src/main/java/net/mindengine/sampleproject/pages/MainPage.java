@@ -18,6 +18,22 @@ public class MainPage extends Page {
     @Named("Login") @FindBy(id="login-popup")
     public LoginPopup loginPopup;
     
+    @Named("Menu") @FindBy(id="navigation")
+    public Menu menu;
+    
+    
+    public static class Menu extends WebLayout {
+        
+        @Named("Home") @FindBy(partialLinkText="Home")
+        public Link homeLink;
+        
+        @Named("Articles") @FindBy(partialLinkText="Articles")
+        public Link articlesLink;
+        
+        @Named("Themes") @FindBy(partialLinkText="Themes")
+        public Link themesLink;
+    }
+    
     
     public static class LoginPopup extends WebLayout {
         

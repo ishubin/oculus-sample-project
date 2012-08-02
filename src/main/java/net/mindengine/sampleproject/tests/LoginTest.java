@@ -32,8 +32,4 @@ public class LoginTest extends SampleTest {
         mainPage.loginPopup.waitForItToAppear();
     }
     
-    public static void main(String[] args) throws TestConfigurationException, TestInterruptedException {
-        TestRunner.runTest(LoginTest.class);
-    }
-    
 }
